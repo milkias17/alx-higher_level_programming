@@ -1,3 +1,5 @@
+-- sql
+-- Shows all records with score >= 10
 SELECT
   score,
   name

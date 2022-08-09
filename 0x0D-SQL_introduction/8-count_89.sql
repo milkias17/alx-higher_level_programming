@@ -1,3 +1,5 @@
+-- Sql file
+-- show the number of records with the id=89
 SELECT
   COUNT(*)
 FROM

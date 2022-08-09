@@ -1,3 +1,5 @@
+-- Sql file
+-- Update bob's score
 UPDATE
   second_table
 SET

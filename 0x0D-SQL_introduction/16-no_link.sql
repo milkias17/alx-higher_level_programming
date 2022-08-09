@@ -1,3 +1,5 @@
+-- Sql file
+-- Just read the sql by now
 SELECT
   score,
   name
