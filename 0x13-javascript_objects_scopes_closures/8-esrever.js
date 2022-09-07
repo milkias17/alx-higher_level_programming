@@ -1,7 +1,7 @@
 #!/usr/bin/node
 
-function esrever(list) {
-  let newList = [];
+function esrever (list) {
+  const newList = [];
   for (let i = list.length - 1; i >= 0; i--) {
     newList.push(list[i]);
   }
@@ -9,4 +9,4 @@ function esrever(list) {
   return newList;
 }
 
-module.exports = {esrever};
+module.exports = { esrever };

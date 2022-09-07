@@ -1,10 +1,10 @@
 #!/usr/bin/node
 
-const SuperSquare = require("./5-square.js");
+const SuperSquare = require('./5-square.js');
 
 class Square extends SuperSquare {
   charPrint (c) {
-    let char = "X";
+    let char = 'X';
     if (c !== undefined) {
       char = c;
     }

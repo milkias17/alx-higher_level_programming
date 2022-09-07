@@ -1,13 +1,12 @@
 #!/usr/bin/node
 
-function nbOccurences(list, searchElement) {
+function nbOccurences (list, searchElement) {
   let count = 0;
   list.forEach(el => {
-    if (el === searchElement)
-      count++;
-  })
+    if (el === searchElement) { count++; }
+  });
 
   return count;
 }
 
-module.exports = {nbOccurences};
+module.exports = { nbOccurences };
